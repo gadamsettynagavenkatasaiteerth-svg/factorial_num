@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {
-    int n;
+    int n,i;
     unsigned long long factorial = 1;
 
     printf("Enter a number: ");
@@ -14,3 +14,4 @@ int main() {
     printf("Factorial of %d = %llu\n", n, factorial);
     return 0;
 }
+
